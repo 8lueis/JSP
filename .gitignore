@@ -1,0 +1,19 @@
+# 컴파일된 클래스 파일 모두 무시
+build/classes/**/*.class
+
+# 혹은 전체 클래스 파일
+*.class
+
+# 이클립스/STS 설정 파일 무시
+.settings/
+.project
+.classpath
+
+# Tomcat 설정 무시
+Servers/
+
+# IDE 메타데이터 무시
+.metadata/
+
+# (선택) 로그나 기타 임시파일
+*.log
